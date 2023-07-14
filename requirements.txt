@@ -1,5 +1,7 @@
 # For name generation.
 faker==18.11.2
+requests==2.31.0
+pandas==2.0.3
 
 # [code_style]-[BEGIN]
 # Pre-commit hook.

@@ -11,7 +11,7 @@ d-homework-i-purge:
 
 
 .PHONY: init-configs
-# Configuration files initialization
+# Configuration input_files initialization
 init-configs:
 #	@cp docker-compose.override.dev.yml docker-compose.override.yml
 
@@ -53,11 +53,11 @@ homework-i-purge:
 
 
 .PHONY: pre-commit-run
-# Run tools for files from commit.
+# Run tools for input_files from commit.
 pre-commit-run:
 	@pre-commit run
 
 .PHONY: pre-commit-run-all
-# Run tools for all files.
+# Run tools for all input_files.
 pre-commit-run-all:
 	@pre-commit run --all-files
