@@ -3,7 +3,7 @@ from pathlib import Path
 
 
 def get_file_content():
-    file_path = Path(__file__).parent / "input_files" / "test_text.txt"
+    file_path = Path(__file__).parent / "test_text.txt"
     with open(file_path) as file:
         content = file.read()
     return content

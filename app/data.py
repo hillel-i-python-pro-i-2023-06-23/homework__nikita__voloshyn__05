@@ -3,6 +3,7 @@ from app.config import FILES_INPUT_DIR
 import os
 
 
+
 def calculate_data_average():
     file_path = os.path.join(FILES_INPUT_DIR, "people_data.csv")
 

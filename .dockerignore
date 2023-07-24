@@ -3,5 +3,6 @@
 
 # Exclude
 !app
+!app/input_files
 !run.py
 !requirements.txt
