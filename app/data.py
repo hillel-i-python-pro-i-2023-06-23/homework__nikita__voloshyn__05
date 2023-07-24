@@ -4,7 +4,7 @@ import os
 
 
 def calculate_data_average():
-    file_path = os.path.join(FILES_INPUT_DIR, 'people_data.csv')
+    file_path = os.path.join(FILES_INPUT_DIR, "people_data.csv")
 
     data = pd.read_csv(file_path)
 
